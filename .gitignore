@@ -1,3 +1,13 @@
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+# If you're using Zero-Installs:
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Logs
 logs
 *.log
