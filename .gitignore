@@ -8,6 +8,10 @@
 !.yarn/sdks
 !.yarn/versions
 
+# Parcel cache
+# https://parceljs.org/getting-started/migration/#cache-location
+.parcel-cache/
+
 # Logs
 logs
 *.log
