@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["aws-cdk-lib", "virtual:6bb8d7c2a138ab90e8954d826de9f868ac9b3bd74676a6327d67771fd134d7b1bc5ef57a5c2530ade3f392393abc48f8cdca6a8bd326f2f5a227bee080788a24#npm:2.3.0"],
             ["mithril", "npm:2.0.4"],
             ["parcel", "npm:2.1.0"]
           ],
@@ -357,6 +358,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.16.7"],
             ["@babel/helper-validator-identifier", "npm:7.16.7"],
             ["to-fast-properties", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@balena/dockerignore", [
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/@balena-dockerignore-npm-1.0.2-1128560642-0d39f8fbcf.zip/node_modules/@balena/dockerignore/",
+          "packageDependencies": [
+            ["@balena/dockerignore", "npm:1.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -1767,11 +1777,51 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["at-least-node", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/at-least-node-npm-1.0.0-2b36e661fa-463e2f8e43.zip/node_modules/at-least-node/",
+          "packageDependencies": [
+            ["at-least-node", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["available-typed-arrays", [
         ["npm:1.0.5", {
           "packageLocation": "./.yarn/cache/available-typed-arrays-npm-1.0.5-88f321e4d3-20eb47b3ce.zip/node_modules/available-typed-arrays/",
           "packageDependencies": [
             ["available-typed-arrays", "npm:1.0.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["aws-cdk-lib", [
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/aws-cdk-lib-npm-2.3.0-7e3f562aa0-acf2db25c6.zip/node_modules/aws-cdk-lib/",
+          "packageDependencies": [
+            ["aws-cdk-lib", "npm:2.3.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:6bb8d7c2a138ab90e8954d826de9f868ac9b3bd74676a6327d67771fd134d7b1bc5ef57a5c2530ade3f392393abc48f8cdca6a8bd326f2f5a227bee080788a24#npm:2.3.0", {
+          "packageLocation": "./.yarn/__virtual__/aws-cdk-lib-virtual-1e4cca0360/0/cache/aws-cdk-lib-npm-2.3.0-7e3f562aa0-acf2db25c6.zip/node_modules/aws-cdk-lib/",
+          "packageDependencies": [
+            ["aws-cdk-lib", "virtual:6bb8d7c2a138ab90e8954d826de9f868ac9b3bd74676a6327d67771fd134d7b1bc5ef57a5c2530ade3f392393abc48f8cdca6a8bd326f2f5a227bee080788a24#npm:2.3.0"],
+            ["@balena/dockerignore", "npm:1.0.2"],
+            ["@types/constructs", null],
+            ["case", "npm:1.6.3"],
+            ["constructs", null],
+            ["fs-extra", "npm:9.1.0"],
+            ["ignore", "npm:5.2.0"],
+            ["jsonschema", "npm:1.4.0"],
+            ["minimatch", "npm:3.0.4"],
+            ["punycode", "npm:2.1.1"],
+            ["semver", "npm:7.3.5"],
+            ["yaml", "npm:1.10.2"]
+          ],
+          "packagePeers": [
+            "@types/constructs",
+            "constructs"
           ],
           "linkType": "HARD",
         }]
@@ -2122,6 +2172,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001296-b4186f51ea-b3fd113ef0.zip/node_modules/caniuse-lite/",
           "packageDependencies": [
             ["caniuse-lite", "npm:1.0.30001296"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["case", [
+        ["npm:1.6.3", {
+          "packageLocation": "./.yarn/cache/case-npm-1.6.3-1bd3a50e38-febe73278f.zip/node_modules/case/",
+          "packageDependencies": [
+            ["case", "npm:1.6.3"]
           ],
           "linkType": "HARD",
         }]
@@ -3507,6 +3566,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["fs-extra", [
+        ["npm:9.1.0", {
+          "packageLocation": "./.yarn/cache/fs-extra-npm-9.1.0-983c2ddb4c-ba71ba32e0.zip/node_modules/fs-extra/",
+          "packageDependencies": [
+            ["fs-extra", "npm:9.1.0"],
+            ["at-least-node", "npm:1.0.0"],
+            ["graceful-fs", "npm:4.2.9"],
+            ["jsonfile", "npm:6.1.0"],
+            ["universalify", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["fs-minipass", [
         ["npm:2.1.0", {
           "packageLocation": "./.yarn/cache/fs-minipass-npm-2.1.0-501ef87306-1b8d128dae.zip/node_modules/fs-minipass/",
@@ -4584,6 +4656,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jsonfile", [
+        ["npm:6.1.0", {
+          "packageLocation": "./.yarn/cache/jsonfile-npm-6.1.0-20a4796cee-7af3b8e1ac.zip/node_modules/jsonfile/",
+          "packageDependencies": [
+            ["jsonfile", "npm:6.1.0"],
+            ["graceful-fs", "npm:4.2.9"],
+            ["universalify", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["jsonschema", [
+        ["npm:1.4.0", {
+          "packageLocation": "./.yarn/cache/jsonschema-npm-1.4.0-9bc5d82c54-a2f96b5154.zip/node_modules/jsonschema/",
+          "packageDependencies": [
+            ["jsonschema", "npm:1.4.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["jsprim", [
         ["npm:1.4.2", {
           "packageLocation": "./.yarn/cache/jsprim-npm-1.4.2-1ae6cade9a-2ad1b9fdcc.zip/node_modules/jsprim/",
@@ -4769,6 +4861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["mcdk", "workspace:."],
+            ["aws-cdk-lib", "virtual:6bb8d7c2a138ab90e8954d826de9f868ac9b3bd74676a6327d67771fd134d7b1bc5ef57a5c2530ade3f392393abc48f8cdca6a8bd326f2f5a227bee080788a24#npm:2.3.0"],
             ["mithril", "npm:2.0.4"],
             ["parcel", "npm:2.1.0"]
           ],
@@ -7539,6 +7632,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["unique-slug", "npm:2.0.2"],
             ["imurmurhash", "npm:0.1.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["universalify", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/universalify-npm-2.0.0-03b8b418a8-2406a4edf4.zip/node_modules/universalify/",
+          "packageDependencies": [
+            ["universalify", "npm:2.0.0"]
           ],
           "linkType": "HARD",
         }]
